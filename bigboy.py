@@ -39,7 +39,7 @@ if datetime.strftime(today, "%m-%d") == "11-07":
 
     if st.session_state["button_pressed"]:
         st.title(f"🎉Grattis Hashim på {age} år🎉")
-        col1, col2, col3 = st.columns([1, 3, 1])
+        col1, col2, col3 = st.columns([0.5, 3, 0.5])
         with col2:
             st.image("bigboy-horse.jpeg")
         rain("🎈", animation_length="infinite")
