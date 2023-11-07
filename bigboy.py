@@ -41,7 +41,7 @@ if datetime.strftime(today, "%m-%d") == "11-07":
         st.title(f"🎉Grattis broder Hashim {age} år🎉")
         col1, col2, col3 = st.columns([1, 3, 1])
         with col2:
-            st.image("hashim-horse.jpeg")
+            st.image("bigboy-horse.jpeg")
         rain("🎈", animation_length="infinite")
 
 else:
