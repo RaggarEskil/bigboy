@@ -31,7 +31,7 @@ if datetime.strftime(today, "%m-%d") == "11-07":
         st.session_state["button_pressed"] = False
 
     if not st.session_state["button_pressed"]:
-        hashim_button = st.button("Klicka på knappen")
+        hashim_button = st.button("Klicka här")
 
         if hashim_button:
             st.session_state["button_pressed"] = True
