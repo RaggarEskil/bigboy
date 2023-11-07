@@ -38,7 +38,7 @@ if datetime.strftime(today, "%m-%d") == "11-07":
             st.rerun()
 
     if st.session_state["button_pressed"]:
-        st.title(f"🎉Grattis broder Hashim {age} år🎉")
+        st.title(f"🎉Grattis Hashim på {age} år🎉")
         col1, col2, col3 = st.columns([1, 3, 1])
         with col2:
             st.image("bigboy-horse.jpeg")
